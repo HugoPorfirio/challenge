@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+/* Remove the jumbotron's default bottom margin */ 
+.jumbotron {
+    margin-bottom: 0;
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+</style>
+  </head>
+  <body>
+<div class="container">
+    <div class="row" align="center">
+    <div class="col-md-12"> <img src="img/logo.png"> </div>
+  </div>
+  </div>
+<div class="container">
+    <div class="row" align="center">
+    <div class="col-md-12">
+        <p class="color-1 font-size-max">Front-end</p>
+        <p class="color-2 font-size-max style-font">developer<span class="color-1 font-size-max style-font">challenge</span></p>
+      </div>
+  </div>
+  </div>
+<div class="container">
+    <div class="row" align="center">
+    <div class="col-md-12"> <img src="img/img.png" class="img-carrossel"> </div>
+  </div>
+  </div>
+<div class="container">
+    <div class="row" align="center">
+    <div class="col-md-12">
+        <p class="color-1 font-size-mediun">SOMOS 360</p>
+      </div>
+  </div>
+  </div>
+<div class="container">
+    <div class="row">
+    <div class="col-sm-4" align="center">
+        <div class="">
+        <div class="panel-body"><img src="img/thumb-ia.png"></div>
+        <div class="px-4 pb-5">
+            <h5>INTELIGÊNCIA ARTIFICIAL</h5>
+          </div>
+      </div>
+      </div>
+    <div class="col-sm-4" align="center">
+        <div class="">
+        <div class="panel-body"><img src="img/thumb-ux-ui.png"></div>
+        <div class="px-4 pb-5">
+            <h5>UX/UI  DESIGN</h5>
+          </div>
+      </div>
+      </div>
+    <div class="col-sm-4" align="center">
+        <div class="">
+        <div class="panel-body"><img src="img/thumb-dev.png"></div>
+        <div class="px-4 pb-5">
+            <h5>DESENVOLVIMENTO</h5>
+          </div>
+      </div>
+      </div>
+    <div class="col-sm-4" align="center">
+        <div class="">
+        <div class="panel-body"><img src="img/thumb-link.png"></div>
+        <div class="px-4 pb-5">
+            <h5>LINKS PATROCINADOS</h5>
+          </div>
+      </div>
+      </div>
+    <div class="col-sm-4" align="center">
+        <div class="">
+        <div class="panel-body"><img src="img/thumb-seo.png"></div>
+        <div class="px-4 pb-5">
+            <h5>SEO</h5>
+          </div>
+      </div>
+      </div>
+    <div class="col-sm-4" align="center">
+        <div class="">
+        <div class="panel-body"><img src="img/thumb-web.png"></div>
+        <div class="px-4 pb-5">
+            <h5>WEB ANALYTICS / B.I.</h5>
+          </div>
+      </div>
+      </div>
+    <div class="col-sm-4" align="center">
+        <div class="">
+        <div class="panel-body"><img src="img/thumb-apps.png"></div>
+        <div class="px-4 pb-5">
+            <h5>CRIAÇÃO DE APPS</h5>
+          </div>
+      </div>
+      </div>
+    <div class="col-sm-4" align="center">
+        <div class="">
+        <div class="panel-body"><img src="img/thumb-campanha.png"></div>
+        <div class="px-4 pb-5">
+            <h5>CAMPANHAS</h5>
+          </div>
+      </div>
+      </div>
+    <div class="col-sm-4" align="center">
+        <div class="">
+        <div class="panel-body"><img src="img/thumb-social.png"></div>
+        <div class="px-4 pb-5">
+            <h5>REDES SOCIAIS</h5>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+<div class="container">
+    <div class="row" align="center">
+    <div class="col-md-12">
+        <p class="color-1 font-size-mediun">Criamos experiências</p>
+      </div>
+  </div>
+  </div>
+<div class="container">
+    <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">All</button>
+    <button class="btn" onclick="filterSelection('purple')"> Purple</button>
+    <button class="btn" onclick="filterSelection('yellow')"> Yellow</button>
+    <button class="btn" onclick="filterSelection('gray')"> Gray</button>
+  </div>
+    <div class="filterDiv filter-purple purple">&nbsp;</div>
+    <div class="filterDiv filter-gray gray">&nbsp;</div>
+    <div class="filterDiv filter-purple purple">&nbsp;</div>
+    <div class="filterDiv filter-gray gray">&nbsp;</div>
+    <div class="filterDiv filter-yellow yellow">&nbsp;</div>
+    <div class="filterDiv filter-yellow yellow">&nbsp;</div>
+    <div class="filterDiv filter-purple purple">&nbsp;</div>
+    <div class="filterDiv filter-gray gray">&nbsp;</div>
+    <div class="filterDiv filter-purple purple">&nbsp;</div>
+    <div class="filterDiv filter-yellow yellow">&nbsp;</div>
+    <div class="filterDiv filter-purple purple">&nbsp;</div>
+    <div class="filterDiv filter-gray gray">&nbsp;</div>
+    <div class="filterDiv filter-yellow yellow">&nbsp;</div>
+  </div>
+<div class="container">
+    <div class="row" style="background-color:#7300fc; margin-bottom: 50px;">
+    <div class="col-sm-8" >
+        <p class="font-contato">Como podemos te ajudar?</p>
+        <p class="font-contato-2"> Entre em contato com um de nossos especialistas para que encontremos uma solução</p>
+      </div>
+    <div class="col-sm-4" style="background-color: #fff;">
+        <form action="/action_page.php">
+        <label for="fname">Nome</label>
+        <input type="text" id="fname" name="firstname" placeholder="Seu Nome">
+        <label for="fname">E-mail</label>
+        <input type="text" id="femail" name="email" placeholder="Seu E-mail">
+        <label for="subject">Mensagem</label>
+        <textarea id="subject" name="subject" placeholder="Sua mensagem" style="height:200px"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+      </div>
+  </div>
+  </div>
+<div class="container">
+    <div class="row" align="center"> <img src="img/logo-2.png">
+    <p class="color-1">Front-end</p>
+    <p class="color-1"><strong>developerchallenge</strong></p>
+  </div>
+  </div>
+
+	  
+	  
+	 <script type="text/javascript" src="js/creative.js"></script> 
+</body>
+</html>

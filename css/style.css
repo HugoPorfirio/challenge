@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+.color-1{
+
+    color: #7300fc;
+}
+.color-2{
+    color: #fdc500;
+}
+.font-size-max{
+    font-size: 61px;
+}
+.font-size-mediun{
+    font-size: 22px;
+}
+.font-contato{
+    margin: 0px 0px 0px 190px;
+    font-size: 75px;
+    color: #fdc500;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.font-contato-2{
+    margin: 0px 0px 0px 190px;
+    font-size: 18px;
+    color: #fff;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.img-carrossel{
+}
+.style-font{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #7300fc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #7300fc;
+  }
+
+  .filter-purple {
+    float: left;
+    background-color: #b97ffd;
+    color: #ffffff;
+    width: 200px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .filter-yellow {
+    float: left;
+    background-color: #fee27f;
+    color: #ffffff;
+    width: 200px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+    height: 200px;
+    border-radius: 5px;
+  }
+  .filter-gray {
+    float: left;
+    background-color: #949594;
+    color: #ffffff;
+    width: 200px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+    height: 200px;
+    border-radius: 5px;
+  }
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    color: #7300fc;
+    cursor: pointer;
+    border-bottom: 2px solid #7300fc;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+  }
+  
+  .btn.active {
+    color: #7300fc;
+  }
+  
+
