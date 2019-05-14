@@ -14,7 +14,7 @@
     font-size: 22px;
 }
 .font-contato{
-    margin: 0px 0px 0px 190px;
+/*    margin: 0px 110px 0px 190px;*/
     font-size: 75px;
     color: #fdc500;
     text-align: right;
@@ -22,12 +22,13 @@
     font-style: italic;
 }
 .font-contato-2{
-    margin: 0px 0px 0px 190px;
+/*    margin: 0px 0px 0px 0px;*/
     font-size: 18px;
     color: #fff;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
+/*    padding: 0px 130px 0px 750px;*/
 }
 .img-carrossel{
 }
@@ -49,7 +50,7 @@ input[type=text], select, textarea {
   input[type=submit] {
     background-color: #7300fc;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 40px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -63,8 +64,8 @@ input[type=text], select, textarea {
     float: left;
     background-color: #b97ffd;
     color: #ffffff;
-    width: 200px;
-    line-height: 100px;
+    width: 266px;
+    /* line-height: 100px; */
     text-align: center;
     margin: 2px;
     display: none;
@@ -76,24 +77,24 @@ input[type=text], select, textarea {
     float: left;
     background-color: #fee27f;
     color: #ffffff;
-    width: 200px;
-    line-height: 100px;
+    width: 266px;
+    /* line-height: 100px; */
     text-align: center;
     margin: 2px;
     display: none;
-    height: 200px;
+    height: 197px;
     border-radius: 5px;
   }
   .filter-gray {
     float: left;
     background-color: #949594;
     color: #ffffff;
-    width: 200px;
-    line-height: 100px;
+    width: 266px;
+    /* line-height: 100px; */
     text-align: center;
     margin: 2px;
     display: none;
-    height: 200px;
+    height: 197px;
     border-radius: 5px;
   }
   .show {
@@ -109,10 +110,11 @@ input[type=text], select, textarea {
   .btn {
     border: none;
     outline: none;
-    padding: 12px 16px;
+    padding: 10px 30px 10px 30px;
     color: #7300fc;
     cursor: pointer;
-    border-bottom: 2px solid #7300fc;
+
+    margin: 0px 20px 0px 20px;
   }
   
   .btn:hover {
@@ -121,6 +123,7 @@ input[type=text], select, textarea {
   
   .btn.active {
     color: #7300fc;
+    border-bottom: 3px solid #7300fc;
   }
   
 
